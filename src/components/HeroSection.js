@@ -20,7 +20,7 @@ export default class HeroSection extends React.Component {
                     {title && <h1 className="hero__title">{title}</h1>}
                     {content && (
                         <div className="hero__body text-block">
-                            VIP Longue <GoPrimitiveDot /> Bar <GoPrimitiveDot /> Live DJ
+                            VIP Lounge <GoPrimitiveDot /> Bar <GoPrimitiveDot /> Live DJ
                         </div>
                     )}
                     {!_.isEmpty(actions) && (
