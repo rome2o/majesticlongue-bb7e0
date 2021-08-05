@@ -20,22 +20,6 @@ sections:
     view_all_label: View All
     view_all_url: portfolio
   - type: grid_section
-    section_id: clients
-    title: Clients
-    subtitle: A few of the companies we're proud to work with
-    col_number: three
-    grid_items:
-      - image: images/logo-1.svg
-        image_alt: Logo 1
-      - image: images/logo-2.svg
-        image_alt: Logo 2
-      - image: images/logo-3.svg
-        image_alt: Logo 3
-      - image: images/logo-4.svg
-        image_alt: Logo 4
-      - image: images/logo-5.svg
-        image_alt: Logo 5
-  - type: grid_section
     section_id: services
     title: Services
     subtitle: What we do
@@ -81,7 +65,7 @@ sections:
       - author: Desmond Eagle
         avatar: images/desmond-eagle.jpg
         avatar_alt: Desmond Eagle's photo
-        position: CEO and founder, A Company
+        position: 'CEO and founder, A Company'
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
@@ -89,7 +73,7 @@ sections:
       - author: Dianne Ameter
         avatar: images/dianne-ameter.jpg
         avatar_alt: Dianne Ameter's photo
-        position: CTO, Another Company
+        position: 'CTO, Another Company'
         content: >-
           Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
           nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
