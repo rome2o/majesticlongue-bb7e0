@@ -10,6 +10,7 @@ sections:
       VIP Longue . Bar . Live DJ <br />
     address: >-
       Unit 1/347-349 Old Geelong Rd, Hoppers Crossing VIC 3029
+    icon: fire
     actions:
         - label: Get Directions
           url: https://goo.gl/maps/h3cWpEcsaujY8xYA9

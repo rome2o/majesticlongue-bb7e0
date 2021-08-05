@@ -3,7 +3,7 @@ import _ from 'lodash';
 
 import { markdownify } from '../utils';
 import CtaButtons from './CtaButtons';
-
+import { GoPrimitiveDot } from "react-icons/go";
 export default class HeroSection extends React.Component {
     render() {
         const section = _.get(this.props, 'section');
@@ -20,7 +20,7 @@ export default class HeroSection extends React.Component {
                     {title && <h1 className="hero__title">{title}</h1>}
                     {content && (
                         <div className="hero__body text-block">
-                            {markdownify(content)}
+                            VIP Longue <GoPrimitiveDot /> Bar <GoPrimitiveDot /> Live DJ
                         </div>
                     )}
                     {!_.isEmpty(actions) && (

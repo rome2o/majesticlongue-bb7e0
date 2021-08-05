@@ -764,6 +764,7 @@ models:
           - twitter
           - vimeo
           - youtube
+          - fire
         default: dribbble
       - type: boolean
         name: new_window

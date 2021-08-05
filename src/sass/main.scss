@@ -65,8 +65,8 @@ $grid-gap: 1.66667rem !default;
 #hero{
     color: white;
     background: $color-gray-900;
-    padding-top:150px;
-    padding-bottom:150px;
+    padding-top:120px;
+    padding-bottom:120px;
 }
 #hero button{
   margin-left: auto;
@@ -87,4 +87,20 @@ nav.navbar {
 
 body{
     background: $color-gray-900;
+}
+.hero__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+.hero__body svg {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.button{
+  font-family: 'Nunito' !important;
+  font-weight: 900 !important;
+  text-transform:uppercase;
 }
