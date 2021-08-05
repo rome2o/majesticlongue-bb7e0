@@ -9,9 +9,9 @@ sections:
     content: >-
       VIP Longue . Bar . Live DJ
     actions:
-         - label: Let's start
-        url: /contact
-        style: button
+        - label: Let's start
+            url: /contact
+            style: button
   - type: cta_section
     section_id: cta
     title: Let’s Work Together!
