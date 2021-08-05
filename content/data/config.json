@@ -41,13 +41,6 @@
         "content": "&copy; Majestic Lounge. All rights reserved. This Jamstack site is created by <a href=\"https://devkind.com.au\" target=\"_blank\" rel=\"noopener\">Devkind</a>.",
         "has_social": true,
         "social_links": [
-            {
-                "label": "Instagram",
-                "url": "https://www.instagram.com/",
-                "style": "icon",
-                "icon": "instagram",
-                "new_window": true
-            }
         ]
     },
     "domain": "https://majesticlounge-bb7e0.netlify.app"
