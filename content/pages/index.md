@@ -7,10 +7,13 @@ sections:
     title: >-
       The luxuries of the West.
     content: >-
-      VIP Longue . Bar . Live DJ
+      VIP Longue . Bar . Live DJ <br />
+    address: >-
+      Unit 1/347-349 Old Geelong Rd, Hoppers Crossing VIC 3029
     actions:
         - label: Get Directions
-          url: /contact
+          url: https://goo.gl/maps/h3cWpEcsaujY8xYA9
           style: button
+          new_window: true
 layout: advanced
 ---

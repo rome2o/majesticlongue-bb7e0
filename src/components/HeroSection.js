@@ -11,6 +11,7 @@ export default class HeroSection extends React.Component {
         const title = _.get(section, 'title');
         const content = _.get(section, 'content');
         const actions = _.get(section, 'actions');
+        const address = _.get(section, 'address');
 
         return (
             <section id={sectionId} className="hero">
@@ -26,6 +27,22 @@ export default class HeroSection extends React.Component {
                             <CtaButtons actions={actions} />
                         </div>
                     )}
+
+                    {address || phone && (
+                        <div className="hero__body text-block directions-block">
+                            <span className="address-text">
+                                {address && (
+                                    markdownify(address)
+                                )}
+                            </span>
+                            <span>
+                                {phone && (
+                                    markdownify(phone)
+                                )}
+                            </span>
+                        </div>
+                    )}
+
                 </div>
             </section>
         );

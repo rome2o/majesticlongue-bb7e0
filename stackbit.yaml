@@ -70,7 +70,9 @@ models:
           - fraunces
           - karla
           - system-sans
-        default: fraunces
+          - nunito
+          - baskerville
+        default: baskerville
         required: true
       - type: model
         name: header

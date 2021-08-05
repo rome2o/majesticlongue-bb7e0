@@ -31,6 +31,7 @@ export default class Body extends React.Component {
         const config = _.get(this.props, 'config');
         const configTitle = _.get(config, 'title');
         const font = _.get(config, 'base_font', 'fraunces');
+        const secondary_font = _.get(config, 'secondary_font', 'nunito');
         const colorScheme = _.get(config, 'color_scheme', 'light');
         const accentColor = _.get(config, 'accent_color', 'pink');
         const favicon = _.get(config, 'favicon');
@@ -71,11 +72,10 @@ export default class Body extends React.Component {
                     <meta name="description" content={seoDescription} />
                     {seoRobots && <meta name="robots" content={seoRobots} />}
                     {seoExtra}
-                    {font !== 'system-sans' && <link rel="preconnect" href="https://fonts.gstatic.com" />}
                     {font === 'fraunces' && <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />}
                     {font === 'baskerville' && <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />}
                     {font === 'karla' && <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />}
-                    {font === 'nunito' && <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />}
+                    {secondary_font === 'nunito' && <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />}
                     {favicon && <link rel="icon" href={withPrefix(favicon)} />}
                     <body className={classNames(`font-${font}`, `palette-${colorScheme}`, `accent-${accentColor}`)} />
                 </Helmet>

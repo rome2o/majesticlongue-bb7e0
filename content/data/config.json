@@ -4,6 +4,7 @@
     "color_scheme": "dark",
     "accent_color": "golden",
     "base_font": "baskerville",
+    "secondary_font": "nunito",
     "header": {
         "logo": "images/majestic-logo.svg",
         "logo_alt": "Agency logo",
