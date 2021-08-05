@@ -8,6 +8,10 @@ sections:
       The luxuries of the West.
     content: >-
       VIP Longue . Bar . Live DJ
+    actions:
+         - label: Let's start
+        url: /contact
+        style: button
   - type: cta_section
     section_id: cta
     title: Let’s Work Together!
