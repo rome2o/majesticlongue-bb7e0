@@ -104,7 +104,7 @@ models:
         name: has_nav
         label: Enable navigation menu
         description: Display the navigation menu bar in the header
-        default: true
+        default: false
       - type: list
         name: nav_links
         label: Navigation links

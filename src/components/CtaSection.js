@@ -18,7 +18,7 @@ export default class CtaSection extends React.Component {
         return (
             <section id={sectionId} className="section section--cta">
                 <div className="container container--lg">
-                    <div className={classNames({ 'section__bg': backgroundColor !== 'none' })}>
+                    <div className={classNames({ 'section__bg_gray': backgroundColor !== 'none' })}>
                         <div className={classNames({ 'grid': image })}>
                             {image && (
                                 <div className="section__image cell">

@@ -1,14 +1,13 @@
 {
     "title": "Stackbit Agency Theme",
     "path_prefix": "/",
-    "color_scheme": "light",
-    "accent_color": "green",
-    "base_font": "fraunces",
+    "color_scheme": "dark",
+    "accent_color": "golden",
+    "base_font": "baskerville",
     "header": {
-        "title": "Agency",
-        "logo": "images/logo.svg",
+        "logo": "images/majestic-logo.svg",
         "logo_alt": "Agency logo",
-        "has_nav": true,
+        "has_nav": false,
         "nav_links": [
             {
                 "label": "Home",
@@ -38,7 +37,7 @@
         ]
     },
     "footer": {
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=agency&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>",
+        "content": "&copy; Majestic Longue. All rights reserved. This Jamstack site is created by <a href=\"https://devkind.com.au\" target=\"_blank\" rel=\"noopener\">Devkind</a>.",
         "has_social": true,
         "social_links": [
             {

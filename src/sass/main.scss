@@ -16,15 +16,16 @@ $color-gray-600: #2f3845 !default;
 $color-gray-700: #1f2937 !default;
 $color-gray-800: #18202a !default;
 $color-gray-900: #121920 !default;
-$color-accent:   #d8195e !default;
+$color-accent:   #FFEB96 !default;
 
 // Alternative accent colors
 $accent-colors: (
   blue:   #0c8aea,
-  green:  #10b981,
+  green:  #FFEB96,
   red:    #fa292a,
   violet: #7c43a8,
-  yellow: #ed9700
+  yellow: #ed9700,
+  golden: #FFEB96
 );
 
 // Container max width
@@ -61,13 +62,27 @@ $grid-gap: 1.66667rem !default;
 
 #hero{
     color: white;
-    background: black;
+    background: $color-gray-900;
     padding-top:150px;
     padding-bottom:150px;
+}
+#hero button{
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero__actions.button-group {
+  align-items: center;
+  justify-content: center;
 }
 .site-header{
     margin-bottom:0px;
 }
+
+nav.navbar {
+  justify-content: center;
+}
+
+
 body{
-    background: #121212;
+    background: $color-gray-900;
 }
