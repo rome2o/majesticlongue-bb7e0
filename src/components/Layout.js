@@ -75,7 +75,7 @@ export default class Body extends React.Component {
                     {font === 'fraunces' && <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />}
                     {font === 'baskerville' && <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />}
                     {font === 'karla' && <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />}
-                    {font === 'nunito' && <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />}
+                    {font === 'nunito' && <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />}
                     {favicon && <link rel="icon" href={withPrefix(favicon)} />}
                     <body className={classNames(`font-${font}`, `palette-${colorScheme}`, `accent-${accentColor}`)} />
                 </Helmet>
