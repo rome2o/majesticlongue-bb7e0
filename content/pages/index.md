@@ -7,7 +7,7 @@ sections:
     title: >-
       The luxuries of the West.
     content: >-
-      VIP Longue . Live Music . 
+      VIP Longue . Live Music . Bar
   - type: cta_section
     section_id: cta
     title: Let’s Work Together!
