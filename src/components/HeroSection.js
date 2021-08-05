@@ -12,6 +12,7 @@ export default class HeroSection extends React.Component {
         const content = _.get(section, 'content');
         const actions = _.get(section, 'actions');
         const address = _.get(section, 'address');
+        const phone = _.get(section, 'phone');
 
         return (
             <section id={sectionId} className="hero">
