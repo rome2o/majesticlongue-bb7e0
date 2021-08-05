@@ -73,7 +73,7 @@ export default class Body extends React.Component {
                     {seoExtra}
                     {font !== 'system-sans' && <link rel="preconnect" href="https://fonts.gstatic.com" />}
                     {font === 'fraunces' && <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />}
-                                      {font === 'fraunces' && <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />}
+                    {font === 'baskerville' && <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />}
                     {font === 'karla' && <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />}
                     {favicon && <link rel="icon" href={withPrefix(favicon)} />}
                     <body className={classNames(`font-${font}`, `palette-${colorScheme}`, `accent-${accentColor}`)} />
