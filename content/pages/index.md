@@ -9,7 +9,7 @@ sections:
     content: >-
       VIP Longue . Bar . Live DJ
     actions:
-        - label: Let's start
+        - label: Get Directions
           url: /contact
           style: button
   - type: cta_section
